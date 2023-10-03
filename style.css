@@ -1,0 +1,322 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  height: 70px;
+}
+nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 23px;
+}
+nav h3 {
+  color: gray;
+  margin-left: 30px;
+  opacity: 0.5;
+}
+nav .bx-menu {
+  margin-right: 20px;
+  font-size: 27px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+.section1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("bg.jpg");
+  margin-bottom: 60px;
+  height: 95vh;
+}
+.first_part {
+  padding-top: 40px;
+  font-size: 23px;
+  width: 80%;
+  height: 80vh;
+  margin: 30px auto;
+  align-items: center;
+  color: white;
+}
+.section1 h1 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+.first_part p {
+  margin-bottom: 25px;
+}
+.section1 .first_part .lien {
+  color: white;
+  padding: 8px;
+  margin: 15px;
+  text-decoration: none;
+  border: 1px solid wheat;
+  border-radius: 22px;
+}
+.left_part .lien {
+  color: rgb(18, 17, 17);
+  padding: 8px;
+  margin: 15px;
+  margin-bottom: 60px;
+  text-decoration: none;
+  border: 1px solid wheat;
+  border-radius: 22px;
+}
+.section1 .lien:hover,
+.left_part a:hover {
+  background-color: rgb(129, 108, 70);
+  transition: 0.3s;
+}
+
+.images {
+  display: flex;
+  text-align: center;
+  width: 80%;
+  height: 250px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+}
+.images img {
+  color: white;
+  width: 65px;
+}
+.images img:hover {
+  background-color: white;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+.left_part .flati {
+  color: rgb(20, 20, 20);
+  text-decoration: underline;
+}
+
+.first_part .flaticon {
+  color: white;
+  text-decoration: underline;
+}
+.section2 {
+  display: flex;
+  width: 80%;
+  margin: 5px auto;
+}
+.left_part {
+  padding: 15px;
+  width: 70%;
+}
+.left_part h1 {
+  font-size: 39px;
+}
+
+.left_part p {
+  margin-bottom: 15px;
+}
+.galeries {
+  width: 90%;
+  margin: 80px 80px auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.line {
+  display: flex;
+}
+.line img {
+  width: 20%;
+  margin: 10px;
+}
+.right_part {
+  width: 30%;
+  background-image: url("./img/rp.jpg");
+  background-size: cover;
+}
+
+.section3 {
+  padding: 30px;
+  background-color: burlywood;
+  display: flex;
+  color: rgba(255, 255, 255, 0.806);
+}
+
+.je_ne_sais_pas_quoi_mettre {
+  width: 85%;
+  margin: 10px auto;
+  display: flex;
+}
+
+.right,
+.left {
+  width: 50%;
+  padding: 25px;
+}
+.right h3,
+.left h3 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  font-size: 21px;
+}
+ul li::before {
+  content: "✓ ";
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.sub_ {
+  background-image: url("./img/sub_.jpg");
+  height: 450px;
+  background-size: cover;
+  text-align: center;
+  font-size: 34px;
+  color: white;
+  padding-top: 65px;
+  opacity: 0.8;
+}
+.sub_ h1 {
+  margin-bottom: 40px;
+}
+
+.souvenirs {
+  display: flex;
+  width: 80%;
+  margin: 5px auto;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.souvenirs figure {
+  z-index: 100;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 220px;
+  height: 300px;
+  margin-top: -76px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  justify-content: center;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.176);
+}
+
+figure img {
+  margin: 5px auto;
+  width: 180px;
+}
+
+figure p {
+  font-size: 18px;
+}
+figure a {
+  color: burlywood;
+}
+.section4 .flati {
+  color: black;
+}
+
+.section5,
+.section6 {
+  display: flex;
+  width: 66%;
+  margin: 10px auto;
+}
+
+.left_text,
+.right_text {
+  width: 50%;
+  padding: 25px;
+}
+
+.left_text h1 {
+  font-size: 38px;
+}
+.right_text h1 {
+  font-size: 23px;
+  justify-content: space-between;
+}
+.burly {
+  color: burlywood;
+}
+.left_text p {
+  margin-bottom: 25px;
+}
+.left_text a {
+  color: rgb(250, 246, 246);
+  padding: 8px;
+  margin: 15px;
+  text-decoration: none;
+  border: 1px solid wheat;
+  border-radius: 22px;
+  background-color: rgb(129, 108, 70);
+}
+.left_text a:hover {
+  background-color: rgb(129, 108, 70);
+  transition: 0.3s;
+}
+.section6 {
+  padding-top: 22vh;
+  width: 100%;
+  height: 60vh;
+  background-image: url("./img/sect6.jpg");
+  background-size: cover;
+  padding-bottom: 5vh;
+}
+.bg1 {
+  padding: 12px;
+  display: flex;
+  width: 64%;
+  height: 260px;
+  margin: 5px auto;
+  justify-content: center;
+  background-color: white;
+}
+
+.left_p,
+.right_p {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+.left_p p {
+  margin-bottom: 15px;
+}
+
+.left_p .flati {
+  color:black;
+}
+.left_p .li {
+  color: rgb(250, 246, 246);
+  padding: 8px;
+  margin: 15px;
+  text-decoration: none;
+  border: 1px solid wheat;
+  border-radius: 22px;
+  background-color: rgb(129, 108, 70);
+}
+.right_p img {
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  right: 0;
+}
